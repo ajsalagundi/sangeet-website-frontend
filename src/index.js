@@ -6,15 +6,17 @@ import Features from './Features';
 import Pricing from './Pricing';
 import Footer from './Footer';
 import './styles.css';
+import Navbar from "./Navbar";
 
 const App = () => {
     return(
         <div>
         <Header/>
+        <Navbar/>
         <About/>
         <Features/>
         <Pricing/>
-        {/*<Footer/>*/}
+        <Footer/>
         </div>
     )
 }

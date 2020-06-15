@@ -28,7 +28,7 @@ export default class Header extends React.Component {
                                 <li className={"text-yellow-300 text-center h-auto px-5"}>Contact</li>
                             </ul>
                         </nav>
-                        <div className="my-64">
+                        <div className="lg:my-64 sm:mt-64">
                             <h1 className="w-full font-bold text-6xl text-yellow-300 text-center mb-4">Sangeetam.Digital</h1>
                             <h3 className="w-full font-semibold text-4xl text-yellow-300 text-center">
                                 The world’s first video platform meant only for Sangeet.
